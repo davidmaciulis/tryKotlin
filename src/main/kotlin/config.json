@@ -1,0 +1,15 @@
+
+{
+  "database" : {
+    "url" : "jdbc:postgresql://localhost:5432/backtestdb",
+    "driver" : "org.postgresql.Driver",
+    "user" : "davidmaciulis",
+    "password" : "lbo#dcf"
+  },
+
+  "alphavantage" : {
+    "url" :  "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo"
+  }
+
+}
+

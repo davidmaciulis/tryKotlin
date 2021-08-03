@@ -1,0 +1,17 @@
+// https://www.youtube.com/watch?v=C38lG2wraoo
+// https://www.youtube.com/watch?v=a56bmbOvfHY
+
+// https://github.com/JetBrains/Exposed
+// https://github.com/Kotlin/kotlinx.coroutines
+
+//https://www.bestexecution.net/equities-trading-focus-vwap-chris-sparrow-liquidmetrix/
+// https://www.investopedia.com/terms/v/vwap.asp
+
+//https://github.com/crazzyghost/alphavantage-java
+// https://www.rockandnull.com/json-to-kotlin-data-class/
+
+// https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/serialization-guide.md
+
+
+drop table if exists pricedata;
+create table pricedata (timestamp timestamp, open float, high float, low float, close float, volume int);
